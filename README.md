@@ -7,3 +7,20 @@ Script is used for getting CPU and memory utilisation metrics
 ```
 $ virtualenv --python=python3.7 metrics; cd metrics; source bin/activate;
 ```
+# Usage
+
+Script accept 1 mandatory parameter:
+
+```
+cpu
+```
+to describe CPU utilisation
+
+```
+mem
+```
+to describe memory utilisation
+```
+-h [--help]
+```
+to call help page
