@@ -12,12 +12,23 @@ $ virtualenv --python=python3.7 metrics; cd metrics; source bin/activate;
 Script accept 1 mandatory parameter:
 
 ```cpu``` to describe CPU utilisation
+```mem``` to describe memory utilisation
+```-h [--help]``` to call help page
 
+# Example
+
+```$ ./metrics.py mem
+
+total 3981299712
+available 1681469440
+percent 57.8
+used 1919762432
+free 175157248
+active 1908318208
+inactive 1195720704
+buffers 388591616
+cached 1497788416
+shared 120569856
+slab 500903936
 ```
-mem
-```
-to describe memory utilisation
-```
--h [--help]
-```
-to call help page
+
