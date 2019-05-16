@@ -3,8 +3,6 @@
 #Copyright (c) 2019 Volodymyr Len <vladymyrlen@gmail.com>#
 ##########################################################
 import sys
-import time
-import argparse
 import psutil
 
 def cpu_metrics():
