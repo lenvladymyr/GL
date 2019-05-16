@@ -11,8 +11,8 @@ $ virtualenv --python=python3.7 metrics; cd metrics; source bin/activate;
 
 Script accept 1 mandatory parameter:
 
-```cpu``` to describe CPU utilisation
-```mem``` to describe memory utilisation
+```cpu``` to describe CPU utilisation \n
+```mem``` to describe memory utilisation \n
 ```-h [--help]``` to call help page
 
 # Example
