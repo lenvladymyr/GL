@@ -17,7 +17,8 @@ Script accept 1 mandatory parameter:
 
 # Example
 
-```$ ./metrics.py mem
+```
+$ ./metrics.py mem
 
 total 3981299712
 available 1681469440
